@@ -1,7 +1,7 @@
 %% This BibTeX bibliography file was created using BibDesk.
 %% http://bibdesk.sourceforge.net/
 
-%% Saved with string encoding Unicode (UTF-8) 
+%% Saved with string encoding Unicode (UTF-8)
 
 @book{griersonRH,
 	Author = {C. Grierson and J. Schiefelbein},
@@ -52,3 +52,71 @@
 	Title = {TRH1 Encondes a Potassium Transporter REquired for Tip Growth in Arabidopsis Root Hairs},
 	Volume = {13},
 	Year = {2001}}
+
+
+%% actual biblio starts here
+@article{
+
+author={Kanade,Varun and Valiant,Leslie G. and Vaughan,Jennifer W.},
+
+year={2010},
+
+title={Evolution with Drifting Targets},
+
+abstract={We consider the question of the stability of evolutionary algorithms to gradual changes, or drift, in the target concept. We define an algorithm to be resistant to drift if, for some inverse polynomial drift rate in the target function, it converges to accuracy 1 -- \epsilon , with polynomial resources, and then stays within that accuracy indefinitely, except with probability \epsilon , at any one time. We show that every evolution algorithm, in the sense of Valiant (2007; 2009), can be converted using the Correlational Query technique of Feldman (2008), into such a drift resistant algorithm. For certain evolutionary algorithms, such as for Boolean conjunctions, we give bounds on the rates of drift that they can resist. We develop some new evolution algorithms that are resistant to significant drift. In particular, we give an algorithm for evolving linear separators over the spherically symmetric distribution that is resistant to a drift rate of O(\epsilon /n), and another algorithm over the more general product normal distributions that resists a smaller drift rate. The above translation result can be also interpreted as one on the robustness of the notion of evolvability itself under changes of definition. As a second result in that direction we show that every evolution algorithm can be converted to a quasi-monotonic one that can evolve from any starting point without the performance ever dipping significantly below that of the starting point. This permits the somewhat unnatural feature of arbitrary performance degradations to be removed from several known robustness translations.},
+
+keywords={Learning; Computer Science},
+
+language={English},
+
+url={http://upenn.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwjV07C8IwED58LIL4Fp-YxU2lmj5H0aqbIA7iUlJzgotIfeDP95K2IE5uIRzJkZC773IvAD6bGOMfmTC1SbeitE3bcGjAhRuiicotxwmiG1LnKvPj2tv53M9A2uFPRO_LK64WHKoOJIY14YQ_spA1uc7s3R4IVGqqL62wqkApgXNsHp9_FTJ4rUE5bZXAkpdTh4H_Su6YqZ9PtowuZxVwzPY6EvvegNHK3y82Y71LcItrQARxVeYDzRB3qvCvFSjOeBOKQoWmXx86hU22gDk2ugJD4bmCbCGLIC3Kk5whad-zssjaMPxr7c6fdF0opC7uqdeD3CN6Yh_yzxtJ7g_0fndR},
+
+}
+
+@inproceedings{
+
+author={Kanade,Varun},
+
+editor={ },
+
+year={2011},
+
+title={Evolution with Recombination},
+
+pages={837-846},
+
+abstract={Valiant (2007) introduced a computational model of evolution and suggested that Darwinian evolution be studied in the framework of computational learning theory. Valiant describes evolution as a restricted form of learning where exploration is limited to a set of possible mutations and feedback is received through the survival of the fittest mutation. In subsequent work Feldman (2008) showed that evolvability in Valiant's model is equivalent to learning in the correlational statistical query (CSQ) model. We extend Valiant's model to include genetic recombination and show that in certain cases, recombination can significantly speed-up the process of evolution in terms of the number of generations, though at the expense of population size. This follows via a reduction from parallel-CSQ algorithms to evolution with recombination. This gives an exponential speed-up (in terms of the number of generations) over previous known results for evolving conjunctions and half spaces with respect to restricted distributions.},
+
+keywords={learning (artificial intelligence); genetic algorithms; Valiants model; CSQ; Darwinian evolution; Polynomials; evolvability; Program processors; statistical analysis; Evolution (biology); computational learning theory; correlational statistical query; Evolutionary computation; computational model; genetic recombination; Computational modeling; Genetics; computational learning; Biological system modeling},
+
+isbn={0272-5428},
+
+language={English},
+
+url={http://upenn.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwnV1LS8NAEF6KXhTBV8VqC_kDbZPsZjc5l1Q9iKI9FC9h9hEQaimN-vud2TysXgQhhyx7yWaHmfl2Z76PMR5PwvEvnxADT0GmGMwS47QkihcTact5zEG52KtgL_nLTfaU87zHWpVF0jvxpWhuQq_-Zh_H1RR0VcBq5WkFYduIZ2AmQHgH_TGJgqNty7u8ta0oQdNteUhqLy0xMndUU4J4Ufx5jCJtgDj1TWCJUqSHsmy5oZqx6Cros-n8YfZcM4FS0_yOQosPUPPjupCk8ryGVJfSXVZv0JHuVG3v0D_-a9UnrP_dIxg8dtHvlPXc-owd3ncssNU5G-afjWEHdNwbENR9QyTujaHPFvN8MbsdN2oM49eEE5EkIgttIqGcM8LKyGnrXCYSSEoujAmVdritxiqDGYoLIQZER7Y0idT4fYZfsCOgov31u2_us5csCLMSER_QXaEVYCU6PAkcMVSZmhgsDNiAfkCxqYk3irBZa7Gx5YCNfs75dFeKNFJRZkJ-9cf8NTuoj4fpGbK99-2HG7F9vy1feLTFhw},
+
+}
+
+@inproceedings{
+
+author={Valiant,Paul},
+
+editor={ },
+
+year={2012},
+
+title={Distribution free evolvability of polynomial functions over all convex loss functions},
+
+publisher={ACM},
+
+pages={142-148},
+
+abstract={We formulate a notion of evolvability for functions with domain and range that are real-valued vectors, a compelling way of expressing many natural biological processes. We show that linear and fixed-degree polynomial functions are evolvable in the following dually robust sense: There is a single evolution algorithm that for all convex loss functions converges for all distributions. It is possible that such dually robust results can be achieved by simpler and more natural evolution algorithms. In the second part of the paper we introduce a simple and natural algorithm that we call "wide-scale random noise" and prove a corresponding result for the L 2 metric. We conjecture that the algorithm works for more general classes of metrics.},
+
+isbn={9781450311151;1450311156;},
+
+language={English},
+
+url={http://upenn.summon.serialssolutions.com/2.0.0/link/0/eLvHCXMwhV07T8MwELYQLEhIhVLU8pC8MKakdh72XFpYkBAqC0vk2OcpbaM2Re2_5-ykTYWQGP3QJX6c77N995kQzoZh8GtNSIViytlaNYq0jQU3YA1CBQMxUzaqY5X514v8mPBJyx1tCpQ69xf6uqGsHmo7d5enzDkURi7Kl6MJdpho_NYerjhmvTDygVwxTluEPcme36lJjxqeH8x48rK4c1jwMp2h0nPHHaqX5WZ9ZG-mnToGcO1pCp2byeHuucR18cgJ-4jN8f9GXJJeG99H3w-W64qcwKJLOvsHHmij79fk89nR6jYvYlG7AqCAy9l3ze29o0tLy2Wxc5HNqqDORPpZTJ1bKFVFQb1P-5YWaInb4h6ZTSez8WvQvMMQKIQrAWp8EqGiijxngHgHRjnuepjlkCgEP9Zta4WQuJXOUflTIwVoxWJMJwAyD_kNuVDOXX9R-bA-0yfUakiYsXEsACIOodQmjRWTFr-lcy0HpIt9lpU140bW9NOAPNZD0hZka5aFmYgE_mOaIFrNqm01IP1f9Ti2IMVK8vZPwXfkHIEQ80cr4p6cVqsNPJAzP6g_MtfOsg},
+
+}
